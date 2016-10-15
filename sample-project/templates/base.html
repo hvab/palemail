@@ -1,0 +1,37 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <style type="text/css">
+    {% include "dist/styles.css" %}
+  </style>
+  <!--[if (gte mso 9)|(IE)]>
+  <style type="text/css">
+    table { border-collapse: collapse; }
+  </style>
+  <![endif]-->
+</head>
+<body class="page">
+  <div class="page__layout">
+    <!--[if (gte mso 9)|(IE)]>
+    <table width="800" align="center">
+    <tr>
+    <td valign="top" width="800">
+    <![endif]-->
+    <table class="container" cellpadding="0" align="center">
+      <tr>
+        <td align="left">
+          {% block content %}{% endblock %}
+        </td>
+      </tr>
+    </table>
+    <!--[if (gte mso 9)|(IE)]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+  </div>
+</body>
+</html>

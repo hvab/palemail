@@ -1,0 +1,27 @@
+{
+  "name": "palemail",
+  "version": "0.1.0",
+  "description": "Builder for email development",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pale Grow",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.17.2",
+    "del": "^2.2.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-cached": "^1.1.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-inline-css": "^3.1.0",
+    "gulp-nunjucks": "^2.3.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typograf": "^1.2.0",
+    "gulp-zip": "^3.2.0"
+  }
+}

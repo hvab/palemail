@@ -1,0 +1,79 @@
+$layout-width: 800px;
+$spacer: 15px;
+
+$font-family: Arial, Helvetica, sans-serif;
+$font-size: 16px;
+$line-height: 22px;
+$color: #3e3e3e;
+$brand-color: #3b98df;
+
+$bg-color: #008080;
+
+
+.page {
+  background-color: $bg-color;
+  padding: 0;
+  Margin: 0;
+}
+
+.page__layout {
+  table-layout: fixed;
+
+  text-align: center;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+
+  background-color: $bg-color;
+}
+
+
+a {
+  color: $brand-color !important;
+  text-decoration: underline;
+
+    span {
+      color: $brand-color;
+    }
+
+    img {
+      border: 0;
+    }
+}
+
+
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+
+table {
+  border-collapse: collapse;
+  mso-table-lspace: 0;
+  mso-table-rspace: 0;
+}
+
+td {
+  padding: 0;
+}
+
+
+p {
+  display: block;
+  Margin: 0 0 $spacer;
+
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: normal;
+  font-weight: 300;
+  line-height: $line-height;
+  text-align: left;
+  color: $color;
+}
+
+
+.container {
+  width: $layout-width;
+  Margin: 0 auto;
+
+  background-color: #ffffff;
+}
